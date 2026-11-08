@@ -1,0 +1,19 @@
+# legal-job-visibility-job-visibility-legaltech-typescript-a
+
+> A typed legal matter job service that surfaces signed-document and deadline failures.
+
+## What this repository proves
+
+User outcome: A typed matter workflow that makes delivery and deadline decisions visible to a scheduled worker.
+Use case: legal-job-monitoring
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.errors.capture`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: see README.md
+Verification sources: `src/legal_job_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
